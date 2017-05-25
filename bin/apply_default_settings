@@ -25,8 +25,8 @@ defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 printf "System - Disable window resume system-wide\n"
 defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
 
-printf "System - Disable auto-correct\n"
-defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+printf "System - Enable auto-correct\n"
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool true
 
 printf "System - Disable smart quotes (not useful when writing code)\n"
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false

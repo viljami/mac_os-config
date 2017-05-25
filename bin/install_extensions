@@ -5,6 +5,9 @@
 
 # SETUP
 
+# Oh MY ZSH
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 # EXECUTION
 # Sublime Text - Advanced New File
 install_git_app "$ADVANCED_NEW_FILE_EXTENSION_URL" "$ADVANCED_NEW_FILE_EXTENSION_PATH"

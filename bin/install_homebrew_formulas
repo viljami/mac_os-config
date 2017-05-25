@@ -21,6 +21,11 @@ brew install openssl
 brew tap raggi/ale
 brew install openssl-osx-ca
 
+# AWS
+brew install awscli
+brew install aws-elasticbeanstalk
+brew install amazon-ecs-cli
+
 # asciinema
 brew install asciinema
 
@@ -37,7 +42,7 @@ brew install chruby
 brew install cloc
 
 # Colorized Cat
-brew install ccat
+# brew install ccat
 
 # CTags
 brew install ctags
@@ -138,8 +143,14 @@ brew install ngrep
 # Nginx
 brew install nginx
 
-# Node
-brew install node
+# Nvm
+brew install nvm
+nvm install 7
+nvm use 7
+nvm alias default 7
+
+# MongoDB
+brew install mongodb
 
 # Parallel
 brew install parallel
@@ -202,6 +213,7 @@ brew install unused
 
 # Vim
 brew install vim
+brew install emacs
 
 # Watchman
 brew install watchman
